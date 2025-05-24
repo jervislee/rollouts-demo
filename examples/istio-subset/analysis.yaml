@@ -9,8 +9,8 @@ spec:
   - name: namespace
   metrics:
   - name: success-rate
-    initialDelay: 60s
-    interval: 20s
+    initialDelay: 6000s
+    interval: 2000s
     successCondition: result[0] > 0.90
     provider:
       prometheus:
